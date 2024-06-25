@@ -1,0 +1,148 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+
+header {
+    background-color: #1f2937;
+    color:#f9faf8;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 15% 30px 15%;
+}
+
+header .logo {
+    font-size: 24px;    
+}
+
+.header-links-container {
+    display:flex;
+    gap:30px;
+}
+
+.header-links {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 15% 30px 15%;
+}
+
+.hero-left {
+    width:450px;
+}
+
+.hero-text{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.hero-subtext {
+    margin-top:10px;
+    font-size: smaller;
+}
+
+.hero-signup {
+    margin-top:15px;
+    background-color: #3882f6;    
+    border-radius: 0.5em;
+    padding:5px;
+    font-weight: bold;
+    color: white;
+}
+
+
+.middle {
+    background-color: white;
+    color: #1f2937;
+}
+
+.info-boxes-title{
+    font-size: larger;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.random-infos-container {
+    display: flex;
+    padding: 30px 15% 30px 15%;
+}
+
+.info-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+}   
+
+.info-box img {
+    border: #3882f6;
+    border-radius: 1em;
+    border-style: solid;
+}
+
+.info-box-subtext {
+    font-size: small;
+    text-align: center;
+    width: 70%;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    padding:70px 25% 70px 25%;
+}
+
+.quote-box {
+}
+
+.quote-author {
+    font-weight: bolder;
+    font-size: large;
+    text-align: right;
+}
+
+.call-action {
+    display: flex;
+    margin-top: 50px;
+    background-color: #3882f6;
+    color:white;
+    border-radius: 1em;
+    margin-left: 15%;
+    margin-right: 15%;
+    align-content: space-between;
+    padding:50px;
+}
+
+.call-action-title {
+    font-weight: bolder;
+    font-size: large;
+}
+
+.call-action-sub {
+    font-size: smaller;
+}
+
+.call-right {
+    display: flex;
+    align-self:center;
+    margin: 0 auto;
+}
+
+.call-action-button {
+    background-color: #3882f6;
+    color:white;
+    border-style: solid;
+    border-radius: 0.3em;
+    border-color: white;
+    padding-left:10px;
+    padding-right:10px;
+    font-weight: bold;
+}
