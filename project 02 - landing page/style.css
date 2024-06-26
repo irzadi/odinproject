@@ -103,6 +103,10 @@ header .logo {
 .quote-box {
 }
 
+blockquote {
+    font-size: large;
+}
+
 .quote-author {
     font-weight: bolder;
     font-size: large;
